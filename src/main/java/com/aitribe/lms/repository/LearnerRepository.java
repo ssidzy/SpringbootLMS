@@ -10,4 +10,5 @@ import java.util.List;
 public interface LearnerRepository extends JpaRepository<Learner, Long> {
 
     public List<Learner> findByLearnerName(String learnerName);
+
 }
